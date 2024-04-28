@@ -1,5 +1,4 @@
-a = []
+from scipy.special import comb
 
-a[15] = 12
-
-print(a)
+probability = comb(100, 80) * (0.25 ** 80) * (0.75 ** 20)
+print(probability)
