@@ -34,6 +34,6 @@ def divide_time(input_time, divisor):
 
 # Example usage
 input_time = input('Input time: ')
-divisor = int(input('Input divisor: '))
+divisor = float(input('Input divisor: '))
 result = divide_time(input_time, divisor)
 print("Divided time:", result)
