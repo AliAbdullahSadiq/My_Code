@@ -2,7 +2,7 @@ stack = [None for index in range(0,7)]
 basepointer = 0
 toppointer = -1
 stackfull = 6
-item = 0
+item = int(input("Enter the item: "))
 
 def Pop():
     global basepointer, toppointer, item
